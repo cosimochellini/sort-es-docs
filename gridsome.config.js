@@ -16,8 +16,8 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Jamdocs',
-  siteUrl: 'https://jamdocs.netlify.com',
+  siteName: 'Sort-es',
+  siteUrl: 'https://sort-es.netlify.com',
   templates: {
     Doc: '/:slug',
   },
@@ -32,12 +32,6 @@ module.exports = {
             '@gridsome/remark-prismjs'
           ]
         }
-      }
-    },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'XX-999999999-9')
       }
     },
     {
