@@ -1,6 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
+      <meta name="google-site-verification" content="dVx93NLJ8HgFMc-l8asTrbL31pYAvEM8FwmIP6BL1C4" />
       <h1> {{$static.metadata.siteName}}, {{ description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
