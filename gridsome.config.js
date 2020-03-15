@@ -16,7 +16,7 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'Sort-es',
+  siteName: 'sort-es',
   siteUrl: 'https://sort-es.netlify.com',
   templates: {
     Doc: '/:slug',
