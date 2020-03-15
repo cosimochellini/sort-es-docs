@@ -1,8 +1,7 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <meta name="google-site-verification" content="dVx93NLJ8HgFMc-l8asTrbL31pYAvEM8FwmIP6BL1C4" />
-      <h1> {{$static.metadata.siteName}}, {{ description }}</h1>
+      <h1>{{$static.metadata.siteName}}, {{ description }}</h1>
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
         <Shortcut link="/getting-started" text="Getting started" icon="play-icon" />
@@ -23,8 +22,8 @@ query {
 </static-query>
 
 <script>
-import GitLink from '~/components/GitLink.vue'
-import Shortcut from '~/components/Shortcut.vue'
+import GitLink from "~/components/GitLink.vue";
+import Shortcut from "~/components/Shortcut.vue";
 
 export default {
   components: {
@@ -33,18 +32,24 @@ export default {
   },
   data() {
     return {
-      description: 'a modern, tree-shakeable, type-safe, utility library to sort any type of array'
-    }
+      description:
+        "a modern, tree-shakeable, type-safe, utility library to sort any type of array"
+    };
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click.' }
+        {
+          key: "description",
+          name: "description",
+          content:
+            "A theme for static site documentation based on Gridsome, ready to deploy to Netlify in one click."
+        }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
