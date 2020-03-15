@@ -31,6 +31,12 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   })
 
   head.meta.push({
+    name: 'msvalidate.01',
+    content: process.env.BSV_META
+  })
+
+
+  head.meta.push({
     name: 'apple-mobile-web-app-status-bar-style',
     content: 'default'
   })
