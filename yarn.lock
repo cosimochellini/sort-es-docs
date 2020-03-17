@@ -8253,10 +8253,10 @@ sockjs@^0.3.19:
     faye-websocket "^0.10.0"
     uuid "^3.0.1"
 
-sort-es@^0.2.13:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/sort-es/-/sort-es-0.2.13.tgz#9f16b7e455d27059cb6e424d409815ad1542cae1"
-  integrity sha512-U6H7WdxGZzLljMOhHx/2VdFQyH3h9qoKlGXOeApN2ZhD++0CnJxma0rjZloYto0NgxFN1PKmcwe5XVDJ+cDt4Q==
+sort-es@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/sort-es/-/sort-es-0.3.2.tgz#42bb9cfffe80c05af3dceb4b5ec53b51d33a29de"
+  integrity sha512-La1JHVhZKjbmR9RkUlLbsrQu/bDRYmT0Zi56LGwoV3jTzjrW6tYA3pzRS1SuT+dVaUyXlvOJ4puTj9qS7TEfTQ==
 
 sort-keys-length@^1.0.0:
   version "1.0.1"

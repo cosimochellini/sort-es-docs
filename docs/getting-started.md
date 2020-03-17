@@ -36,17 +36,52 @@ const result = objs.sort(compare);
 //with sort-es
 import { byValue, byString } from 'sort-es' 
 
-const result = obj.sort(byValue('last_nom', byString()))
+const result = objs.sort(byValue(x => x.last_nom, byString()))
 
 ```
-## Local installation
+## Installation
 
-Even though Jamdocs is so simple, you dont really need to set it up localy (you could just fork it on github to edit styles and md-files) - if you want to change it up a bit I recommend setting up localy for a better developer experience.
+The library is available as an [npm package](https://www.npmjs.com/package/sort-es).
+To install the package, run:
 
-To set up a new instance of Jamdocs, and start developing just clone the project from Github like, go to the directory and run gridsome:
-
-```bash
-npm i sort-es
-#or if you prefer yarn
+```
+npm install sort-es
+# or
 yarn add sort-es
+```
+
+Start using:
+
+```javascript
+
+//node or es6 
+import { byString } from 'sort-es'
+
+const unsorted = ["xxx", "bbbb", "zzz", "cccc", "aaa"];
+const sorted = unsorted.sort(byString());
+
+console.log(sorted); //(5) ["aaa", "bbbb", "cccc", "xxx", "zzz"]
+```
+
+Use directly in the browser
+
+```html
+<script src='https://cdn.jsdelivr.net/npm/sort-es/dist/index.umd.min.js'></script>
+<script>
+    const unsorted = ["xxx", "bbbb", "zzz", "cccc", "aaa"];
+    const sorted = unsorted.sort(sort.byString());
+
+    console.log(sorted); //(5) ["aaa", "bbbb", "cccc", "xxx", "zzz"]
+</script>
+
+//or via browser modules
+
+<script type='module'>
+    import { byString } from 'https://cdn.jsdelivr.net/npm/sort-es/dist/index.min.mjs'
+    
+    const unsorted = ["xxx", "bbbb", "zzz", "cccc", "aaa"];
+    const sorted = unsorted.sort(byString());
+
+    console.log(sorted); //(5) ["aaa", "bbbb", "cccc", "xxx", "zzz"]
+</script>
 ```
