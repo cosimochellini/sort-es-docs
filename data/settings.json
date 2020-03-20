@@ -10,6 +10,15 @@
       ]
     },
     {
+      "section": "Typescript",
+      "topics": [
+        {
+          "title": "Typescript support",
+          "slug": "typescript"
+        }
+      ]
+    },
+    {
       "section": "Setup",
       "topics": [
         {
