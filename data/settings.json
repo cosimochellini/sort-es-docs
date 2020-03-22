@@ -19,15 +19,28 @@
       ]
     },
     {
-      "section": "Setup",
+      "section": "Sortables",
       "topics": [
         {
-          "title": "Theme configuration",
-          "slug": "theme-configuration"
+          "title": "byString",
+          "slug": "by-string"
         },
         {
-          "title": "Forestry CMS",
-          "slug": "forestry-cms"
+          "title": "byNumber",
+          "slug": "by-number"
+        },
+        {
+          "title": "byDate",
+          "slug": "by-date"
+        }
+      ]
+    },
+    {
+      "section": "Interfaces",
+      "topics": [
+        {
+          "title": "Interfaces",
+          "slug": "interfaces"
         }
       ]
     }

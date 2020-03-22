@@ -11,7 +11,7 @@ module.exports = function (api) {
 
         const data = require('./data/settings.json');
 
-        const Menu = store.addCollection({typeName: 'Menu'})
+        const Menu = store.addCollection({typeName: 'Menu'});
 
         for (const item of data.sidebar) {
             Menu.addNode({
@@ -19,9 +19,9 @@ module.exports = function (api) {
                 topics: item.topics
             })
         }
-    })
+    });
 
     api.createPages(({createPage}) => {
         // Use the Pages API here: https://gridsome.org/docs/pages-api
     })
-}
+};

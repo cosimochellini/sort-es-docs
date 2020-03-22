@@ -32,7 +32,7 @@ export default {
     }
   },
   mounted() {
-    this.$store.commit('closeSidebar')
+    this.$store.commit('closeSidebar');
     if (process.isClient) {
       if('serviceWorker' in navigator) {
         navigator.serviceWorker

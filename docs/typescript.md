@@ -32,7 +32,7 @@ const correctSortedArray = numberArray.sort(byNumber());
 
 *more complex ts check example*
 
-```javascript
+```typescript
 //ts file
 import {byValue, byNumber, byString} from 'sort-es'
 
@@ -44,6 +44,32 @@ const incorrectSortedArray = objsArray.sort(byValue(i => i.numbProp, byString())
 
 //Correct sort type
 const sortedArray = objsArray.sort(byValue(i => i.numbProp, byNumber()))
+//ts check ok
 
 ```
+*even more complex ts check example*
+
+```typescript
+//ts file
+import {byValues, byNumber, byString} from 'sort-es'
+
+const objsArray = [{numbProp: 2, stringProp: 'a'}, {numbProp: 3, stringProp: 'f'}];
+
+//Incorrect sort property 
+const incorrectSortedArray = objsArray.sort(byValues({
+    numbProp: byString(), //incorrect sortable fn
+    stringProp: byString()
+}));
+//ts check error : Types of property 'numbProp' are incompatible.   
+// Type 'number' is not assignable to type 'string'.
+
+//Correct sort type
+const correctSortedArray = objsArray.sort(byValues({
+    numbProp: byNumber(),
+    stringProp: byString()
+}));
+//ts check ok
+
+```
+
 
