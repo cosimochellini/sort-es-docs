@@ -59,4 +59,3 @@ const sorted = unsorted.sort(byDate({
 
 console.log(sorted); //(3) [tomorrow, today, yesterday];
 ```
-
