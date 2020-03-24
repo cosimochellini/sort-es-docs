@@ -57,5 +57,5 @@ const sorted = unsorted.sort(byDate({
     customParser: item => parseISO(item)
 }));
 
-console.log(sorted); //(3) [tomorrow, today, yesterday];
+console.log(sorted); //(3) [yesterday, today, tomorrow];
 ```

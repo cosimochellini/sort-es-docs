@@ -32,6 +32,10 @@
         {
           "title": "byDate",
           "slug": "by-date"
+        },
+        {
+          "title": "byValue",
+          "slug": "by-value"
         }
       ]
     },
