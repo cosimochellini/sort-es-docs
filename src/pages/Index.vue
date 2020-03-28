@@ -5,8 +5,8 @@
       <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
         <Shortcut link="/getting-started" text="Getting started" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Docs" icon="book-icon" />
+        <Shortcut link="/sortable-introduction" text="Sortables" icon="sliders-icon" />
+        <Shortcut link="/typescript" text="TypeScript support" icon="type-icon" />
       </nav>
       <GitLink class="git" size="large" />
     </div>

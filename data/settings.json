@@ -22,6 +22,10 @@
       "section": "Sortables",
       "topics": [
         {
+          "title": "introduction",
+          "slug": "sortable-introduction"
+        },
+        {
           "title": "byString",
           "slug": "by-string"
         },
