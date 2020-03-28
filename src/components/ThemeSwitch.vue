@@ -15,10 +15,7 @@
 
 <script>
     import {MoonIcon, SunIcon} from "vue-feather-icons";
-    import {toggleTheme} from "../Services/theme.service";
-
-    const [dark, bright] = ["dark", "bright"];
-    const getTheme = () => localStorage.getItem('theme') || bright;
+    import {dark, toggleTheme} from "../Services/theme.service";
 
     export default {
         components: {
@@ -27,18 +24,19 @@
         },
         data() {
             return {
-                theme: ""
+                theme: dark
             };
         },
         methods: {
             toggleTheme({change = false, initial = false} = {}) {
+                if (!process.isClient) return;
 
                 this.theme = toggleTheme(initial);
 
                 if (change) this.$emit("theme-change");
             }
         },
-        created() {
+        mounted() {
             this.toggleTheme({initial: true});
         }
     };

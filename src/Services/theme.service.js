@@ -29,4 +29,4 @@ const toggleTheme = (initial = false) => {
     return valueToAdd;
 };
 
-export {toggleTheme}
+export {toggleTheme, dark, bright}
