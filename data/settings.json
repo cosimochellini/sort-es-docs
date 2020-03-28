@@ -22,7 +22,7 @@
       "section": "Sortables",
       "topics": [
         {
-          "title": "introduction",
+          "title": "Introduction",
           "slug": "sortable-introduction"
         },
         {
@@ -40,6 +40,14 @@
         {
           "title": "byValue",
           "slug": "by-value"
+        },
+        {
+          "title": "byValues",
+          "slug": "by-values"
+        },
+        {
+          "title": "byAsync",
+          "slug": "by-async"
         }
       ]
     },

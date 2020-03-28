@@ -11,10 +11,10 @@ A **sortable** is a small function, often concatenable with other more **complex
   
 These are the main usable sortable that cover most cases of use of a developer:
 
-* [byString](byString) (and [byStringLowerCase](byStringLowerCase))
-* [byNumber](byNumber)
-* [byDate](byDate)
-* [byValue](byValue)
-* [byValues](byValues)
+* [byString](by-string) (and [byStringLowerCase](by-stringLowerCase))
+* [byNumber](by-number)
+* [byDate](by-date)
+* [byValue](by-value)
+* [byValues](by-values)
 
 But there are many others for every type of event.

@@ -1,3 +1,20 @@
+---
+title: byValues sortable
+date: 2028-03-20 18:36:34
+slug: by-values
+---
+
+## Description
+The **byValues** sortble, is the sortable that allow you to sort an array of **complex object**
+ by multiple properties.
+ To use the sortable byValues it is necessary to pass 1 parameter:
+ - [Sorter](interfaces#sortableobject) 
+
+The **sorter** allows you to declare **which properties** are needed to sort the array,
+ in **what order**, and **with what sortable**
+## Example
+```javascript
+//js or ts file
 import {byNumber, byString, byValues} from "sort-es";
 
 const objsToSort = [
@@ -26,3 +43,5 @@ const sortedObject3 = objsToSort.sort(byValues({
     name: byString({desc: true}),
 }));
 console.log(sortedObject3); //[{teresa, 2}, {roberto, 2}, {roberto, 3}];
+
+```
