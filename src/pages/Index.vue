@@ -51,6 +51,7 @@
                 title: this.description,
                 meta: metaTags.map(([name, content]) => ({key: title, name, content}))
             };
+
         }
     };
 </script>
