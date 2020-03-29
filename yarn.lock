@@ -1014,9 +1014,9 @@
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
 "@types/react@^16.8.12":
-  version "16.9.26"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.26.tgz#1e55803e468f5393413e29033538cc9aaed6cec9"
-  integrity sha512-dGuSM+B0Pq1MKXYUMlUQWeS6Jj9IhSAUf9v8Ikaimj+YhkBcQrihWBkmyEhK/1fzkJTwZQkhZp5YhmWa2CH+Rw==
+  version "16.9.27"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.27.tgz#7fc5db99e3ec3f21735b44d3560cff684856814a"
+  integrity sha512-j+RvQb9w7a2kZFBOgTh+s/elCwtqWUMN6RJNdmz0ntmwpeoMHKnyhUcmYBu7Yw94Rtj9938D+TJSn6WGcq2+OA==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -8329,10 +8329,10 @@ sockjs@^0.3.19:
     uuid "^3.4.0"
     websocket-driver "0.6.5"
 
-sort-es@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/sort-es/-/sort-es-0.3.4.tgz#4bd857aafd54cdc3ffde863ef1e51966da51af38"
-  integrity sha512-IqFjtKLBe6vuoF5qCrJjX0vQTD3F/PNK02gi0BuSurzygTwXNUo0hWKIOlgtIg1uuceo940XLMMkguNefAykwg==
+sort-es@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/sort-es/-/sort-es-0.6.4.tgz#303b3fe0a63432bc95f76683fd89cd21aad91ed3"
+  integrity sha512-CJThWmyKsTcMcHduXHPt/2viBMNvKkXZ0B4PRo/JaTMDjhkZokvIeyFCrqgMrbJ6zys/eO/B8eSaFA+GLndNGg==
 
 sort-keys-length@^1.0.0:
   version "1.0.1"
