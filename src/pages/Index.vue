@@ -49,7 +49,7 @@
         metaInfo() {
             return {
                 title: this.description,
-                meta: metaTags.map(([name, content]) => ({key: title, name, content}))
+                meta: metaTags.map(([name, content]) => ({key: name, name, content}))
             };
 
         }
