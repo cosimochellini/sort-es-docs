@@ -11,7 +11,7 @@ A **sortable** is a small function, often concatenable with other more **complex
   
 These are the main usable sortable that cover most cases of use of a developer:
 
-* [byString](by-string) (and [byStringLowerCase](by-stringLowerCase))
+* [byString](by-string)
 * [byNumber](by-number)
 * [byDate](by-date)
 * [byValue](by-value)

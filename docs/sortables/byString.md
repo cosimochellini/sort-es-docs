@@ -33,3 +33,14 @@ console.log(sorted); //(5) ["zzz", "xxx", "cccc", "bbbb","aaa"]
 
 
 
+Sort as lowerCase
+```javascript
+//js or ts file
+import { byString } from 'sort-es'
+
+const unsorted =  ["AAA", "aaB", "ccA", "cccc", "aAc"];
+const sorted = unsorted.sort(byString({ lowercase: true }));
+
+console.log(sorted); //(5) ["AAA", "aaB", "aAc", "ccA", "cccc"];
+```
+

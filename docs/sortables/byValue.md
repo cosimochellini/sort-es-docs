@@ -24,7 +24,7 @@ it is important that the **type of sortable** chosen and the
 
 These are the recommended sortable:
 
-* [byString](byString) (and [byStringLowerCase](byStringLowerCase))
+* [byString](byString)
 * [byNumber](byNumber)
 * [byDate](byDate)
 
