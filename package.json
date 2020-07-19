@@ -15,7 +15,7 @@
     "date-fns": "^2.14.0",
     "gridsome": "^0.7.17",
     "gridsome-plugin-algolia": "^2.1.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "serialize-javascript": "^4.0.0",
     "sort-es": "^1.1.0",
     "typeface-source-sans-pro": "^1.1.5",
