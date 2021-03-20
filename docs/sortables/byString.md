@@ -4,7 +4,7 @@ date: 2022-03-20 11:36:34
 slug: by-string
 ---
 ## Description
-The **byString** sortble, as the name explain, is the sortable to sort the 
+The **byString** sortable, as the name explain, is the sortable to sort the 
 [**string type**](https://www.typescriptlang.org/docs/handbook/basic-types.html#string)
 
 ## Example

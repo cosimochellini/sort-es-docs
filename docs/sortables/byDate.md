@@ -5,7 +5,7 @@ slug: by-date
 ---
 
 ## Description
-The **byDate** sortble, as the name explain, is the sortable to sort the 
+The **byDate** sortable, as the name explain, is the sortable to sort the 
 [**date type**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date).
 
 API side it is very likely that there is no standard method to return dates in ***JSON*** format,

@@ -10,7 +10,7 @@ sort-es is a minimal library useful for sorting any type of array, **super types
 
 This library exposes a series of small functions like **byNumber** which, inserted inside the native method 
 [**Array.prototype.sort()**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-, helps to sort the array without having to go crazy to find the best way on stackoverflow
+ helps to sort the array without having to go crazy to find the best way on stackoverflow
 
 ## installation
 
@@ -59,7 +59,7 @@ Use directly in the browser
 </script>
 ```
 
-## Some mind blowing example
+## Some mind-blowing example
 **sort by a single property**
 ```javascript
 //js or ts file

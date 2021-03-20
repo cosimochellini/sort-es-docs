@@ -5,7 +5,7 @@ slug: by-number
 ---
 
 ## Description
-The **byNumber** sortble, as the name explain, is the sortable to sort the 
+The **byNumber** sortable, as the name explain, is the sortable to sort the 
 [**number type**](https://www.typescriptlang.org/docs/handbook/basic-types.html#number)
 
 ## Example
