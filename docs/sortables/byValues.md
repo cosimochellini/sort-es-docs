@@ -9,7 +9,7 @@ slug: by-values
 The **byValues** sortable, is the sortable that allow you to sort an array of **complex object**
 by multiple properties. To use the sortable byValues it is necessary to pass 1 parameter:
 
-- [Sorter](interfaces#SortableTuple)
+- [Sorter](interfaces#sortabletuple)
 
 ## Example
 
