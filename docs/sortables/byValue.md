@@ -27,10 +27,10 @@ The sortFn is the **sortable** that will then be applied to the result calculate
 
 These are the recommended sortable:
 
-* [byString](byValue.md)
-* [byNumber](byNumber.md)
-* [byDate](byDate.md)
-* [byBoolean](byBoolean.md)
+* [byString](/by-string)
+* [byNumber](/by-number)
+* [byDate](/by-date)
+* [byBoolean](/by-boolean)
 
 But it is still possible to use **all the other sortables** offered by the library
 
